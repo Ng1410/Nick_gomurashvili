@@ -1,0 +1,146 @@
+.cart{
+ width: 100%;
+ height: 100%;
+ margin: -12px 0 -28px -16px;
+ overflow: scroll;
+
+}
+.cart-wrapper{
+ width: 144rem;
+ height: 66.5rem;
+ background: #FFFFFF;
+ display: inline-block;
+ overflow: auto;
+}
+
+.cart-content {
+ background: #ffffff;
+}
+
+.cart-header{
+ font-weight: 700;
+ font-size: 32px;
+ line-height: 40px;
+ color: #1D1F22;
+ width: 100%;
+ margin: 6rem 0 5.9rem 10rem;
+}
+.cart-container{
+ font-size: 3.2rem;
+ line-height: 4rem;
+ width: 109.7rem;
+ height: 18.5rem;
+ background: #FFFFFF;
+ margin-left: 10rem;
+}
+.gridCart-image{
+ width: 141px;
+ height: 185px;
+ float: right;
+ margin-left: 1rem;
+}
+.productButtonCart-container{
+ width: 45px;
+ height: 185px;
+ float: right;
+ text-align: center;
+ text-decoration: none;
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 500;
+ font-size: 2.4rem;
+}
+.productButtonCart{
+ width: 100%;
+ height: 45px;
+ font-size: 2.4rem;
+ background: #FFFFFF;
+}
+.textCart-container{
+ height: 18.5rem;
+ margin: 0 0 2rem 0;
+}
+.buttonCart{
+ width: 140px;
+ height: 43px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 14px;
+ margin: 4px 2px  0 0;
+}
+.buttonViewBagCart{
+ background: #FFFFFF;
+ border: 1px solid #1D1F22;
+ box-sizing: border-box;
+}
+.buttonCheckoutCart{
+ background: #5ECE7B;
+}
+.buttonCart:hover{
+ background: rgba(67, 68, 70, 0.3);
+ cursor: pointer;
+}
+
+.sizeButtonCart-container{
+ width: 13.8rem;
+ height: 4.5rem;
+ float: left;
+ text-align: center;
+ text-decoration: none;
+ display: inline-flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 18px;
+ margin-top: 2px;
+ margin-top: 2.6rem; 
+}
+.sButtonCart{
+ width: 6.3rem;
+ height: 100%;
+}
+.mButtonCart{
+ width: 6.3rem;
+ height: 100%;
+}
+.buttonCart{
+ background:#FFFFFF;
+}
+.buttonCart:hover, .productButtonCart:hover{
+ background: #1D1F22;
+ color:#FFFFFF;
+ cursor: pointer;
+}
+.cart-line{
+ width: 109.7rem;
+ height: 0.1rem;
+ background: #E5E5E5;
+ margin: 2rem 0 2rem 10rem;
+}
+.productCart-name{
+ font-weight: 600;
+ font-size: 30px;
+ line-height: 27px;
+ color: #1D1F22;
+}
+.productCart-class{
+ font-weight: 400;
+ font-size: 30px;
+ line-height: 27px;
+ color: #1D1F22;
+ margin: 1.6rem 0 1.2rem 0;
+}
+.productCart-price{
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 18px;
+ color: #1D1F22;
+}

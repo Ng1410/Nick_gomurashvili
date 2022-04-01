@@ -1,0 +1,130 @@
+.wrapper-women{
+  height: 151.3rem;
+  width: 144rem;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.heading{
+  width: 100%;
+  text-align: left;
+  font-size: 4.2rem;
+  font-weight: 500;
+  margin: 8rem 0 10.3rem 10.1rem;
+  color:#333;
+  padding:1rem;
+ 
+    
+}
+.content-women{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10.3rem 4rem;
+  background: #FFFFFF;
+}
+
+.box-women{
+  display: border-box;
+  background: #ffffff;;
+  width: 38.6rem;
+  height: 44.4rem;  
+}
+.box-women:hover{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+.image-women{
+  margin: 1.1rem 1.4rem 0 1.6rem;
+  height: 33.8rem;
+  object-fit: cover;
+  background: #ffffff;;
+  text-align: center;  
+}
+.image-women img .ees{
+  width: 100%;
+  height: 100%;  
+  background: #555; 
+}
+.box-women .info-women .title-women{
+  color: #555;
+  margin-left: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 2.88rem;
+}
+.box-women .info-women .subInfo-women .price-women{
+  color:  #0e0401;
+  font-size: 1.8rem;
+  font-weight: 555;
+  margin-left: 1.6rem;
+  font-size: 1.8rem;
+}
+.content-women .box-women .image-women .icons{
+  position: relative;
+  bottom:0; left: 0; right:0;
+  padding-left: 28.7rem;
+  display: flex;
+  z-index: -1;
+}
+.content-women .box-women:hover .image-women .icons{
+  bottom: 7.2rem;
+  z-index: 1;
+}
+.content-women .box-women .image-women .icons .icon{
+  height: 5.2rem;
+  width: 5.2rem;
+  line-height: 5rem;
+  font-size: 2rem;
+  border-radius:50%;
+  color:#fff;
+}
+.icon:hover{
+  scale: 1.1;
+  background:rgb(201, 67, 67);
+}
+ .button{
+  width: 140px;
+  height: 43px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.buttonViewBag{
+  background: #FFFFFF;
+  border: 1px solid #1D1F22;
+  box-sizing: border-box;
+  margin: 0 0.6rem 2rem 1.2rem;
+}
+.buttonCheckout{
+  background: #5ECE7B;
+  margin: 0 0 20px 6px;
+}
+.button:hover{
+  background: rgba(67, 68, 70, 0.3);
+}
+.disabled{
+  background: #FFFFFF;
+  opacity: 0.5;
+}
+.parent {
+  position: relative; /* define context for absolutly positioned children */
+  width: 100%;
+  height: 100%;
+}
+.child {
+  position: absolute; /* position based on boundery created by nearest relative ancestor */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  color: #8D8F9A;
+}

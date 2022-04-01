@@ -1,0 +1,40 @@
+.quantityNumber-container{
+  height: 2rem;
+  width: 2rem;
+  position:absolute;
+  background: #1D1F22;
+  border-radius: 50%;
+  margin: -2.4rem 0 0 -4.4rem;
+  z-index: 1;
+}
+.quantityNumber-primary{
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quantity-secondary{
+  font-weight: 500;
+}
+.quantity-primary{
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+.total-container{
+  font-size: 1.6rem;
+  color: #1D1F22;
+  font-weight: 500;
+}
+.total-container p{
+  font-weight: 500;
+}
+.total-primary{
+  padding-left: 19.2rem;
+  font-weight: 700;
+}

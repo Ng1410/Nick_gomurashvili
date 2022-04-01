@@ -1,0 +1,176 @@
+.navigation-wrapper {
+	height: 8rem;
+	width: 144rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+}
+.navigation-container{
+  position: relative;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0  0 11.7rem; 
+}
+.navigation-label{
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  margin-right: 3.2rem;
+  transition: all 0.3s ease;
+}
+.nav-link{
+	color: #1D1F22;
+}
+.nav-link:hover{
+  color: #5ECE7B;
+  font-weight: 600;
+}
+.nav-link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.2rem;
+  left: 50%;
+  position: absolute;
+  background: #5ECE7B;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after { 
+  width: 100%; 
+  left: 0; 
+  margin-bottom: -1.4rem;
+}
+.dropdown-bag {
+  width: 5.8rem;
+  height: 100%;
+  margin: -1.6rem 0 0 0.2rem;
+  padding-top: 3.2rem;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.bag-content {
+  width: 32.5rem;
+  height: 54rem;
+  display: none;
+  position: absolute;
+  background: #FFFFFF;
+  margin: 3rem 0rem 6rem -29rem;
+}
+.dropdown-bag:hover .bag-content {
+  display: block;
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+.cart-bag{
+  width: 100%;
+  height: 100%;
+  margin: 0 0 -6.8rem 0rem;
+  overflow: scroll;
+  background: #FFFFFF;
+}
+.money{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+}
+.button{
+  width: 140px;
+  height: 43px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.buttonViewBag{
+  background: #FFFFFF;
+  border: 1px solid #1D1F22;
+  box-sizing: border-box;
+  margin: 0 0.6rem 2rem 1.2rem;
+}
+.buttonCheckout{
+  background: #5ECE7B;
+  margin: 0 0 2rem 0.6rem;
+}
+.button:hover{
+  background: rgba(67, 68, 70, 0.3);
+}
+.iconArrow{
+  width: 1.2rem;
+  height: 0.6rem;
+  cursor: pointer;
+  margin: 1.6rem 2rem 1.6rem 0.5rem;
+}
+  .iconArrow:hover {
+  transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform-origin: center;
+	-moz-transform-origin: center;
+	-webkit-transform-origin: center;
+	transition:  0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-webkit-transition:  0.2s ease all;
+}
+.currency-symbol{
+  width:2rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-top: -1rem;
+}
+.dropdown-currency {
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  padding-top: 2.0rem;
+}
+.currency-content {
+  width: 11.4rem;
+  height: 16.9rem;
+  padding:2rem;
+  display: none;
+  position: absolute;
+  background: #FFFFFF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  margin: 5.6rem 0rem 6rem -5rem;
+  z-index: 1;
+}
+.dropdown-currency:hover .currency-content {
+  display: block;
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+}
+.currency-label{
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin-right: 3.2rem;
+  transition: all 0.3s ease;
+}
+.logoNavBar-container{
+  display: inline-block;
+  margin: 0 52.49rem 0 30.49rem;
+}
+.nav avctive{
+  color: #5ECE7B;
+}
